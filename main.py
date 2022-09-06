@@ -1,9 +1,12 @@
 import time
 import requests
 from pprint import pprint
-from Decor_path import cache
+from Decor_path import parametrized_decor
+import requests
 
-@cache
+FILE_PATH = 'decoratorlogs.txt'
+
+@parametrized_decor(FILE_PATH)
 def get_questions (tags):
     today_date = int(time.time())
     delta = 172800
@@ -19,5 +22,8 @@ def get_questions (tags):
 
         return f'Количество вопросов с тегом "Python" : {len(questions_list) } \n Адреса ссылок: {questions_list}'
 
+if __name__ == '__main__':
+    print(get_questions('Python'))
 
-pprint (get_questions('Python'))
+
+# print (get_questions('Python'))

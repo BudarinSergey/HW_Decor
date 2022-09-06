@@ -1,4 +1,5 @@
-Дата/время: 2022-09-06 09:51:18.636212
-Имя функции: get_status
-Аргументы: (('https://yandex.ru/',), {})
-Результат: 200
+Дата/время: 2022-09-06 10:03:39.000356
+Имя функции: get_questions
+Аргументы: (('Python',), {})
+Результат: Количество вопросов с тегом "Python" : 13 
+ Адреса ссылок: ['https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class', 'https://stackoverflow.com/questions/73616065/beautifulsoup-how-to-merge-class']
